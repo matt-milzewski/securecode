@@ -1,4 +1,4 @@
-from ubuntu
+from ubuntu:kinetic
 USER root
 RUN echo "root:Passw0rd" | chpasswd
 RUN DEBIAN_FRONTEND="noninteractive" apt-get update -y
